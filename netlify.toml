@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[context.production.environment]
+  NODE_VERSION = "16"
+
+# Adjust `command` and `publish` to match your project (e.g., `npm run build` -> `hugo`, `publish` -> `public`).
